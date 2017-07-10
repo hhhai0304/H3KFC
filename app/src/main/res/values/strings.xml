@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">H3 Fast Food</string>
+    <string name="downloading">Downloading data </string>
+    <string name="addtocard">Add To Cart</string>
+    <string name="back">Back</string>
+    <string name="frontcartmessage">Success: You have added</string>
+    <string name="backcartmessage">to your cart!</string>
+    <string name="checkout">PROCEED TO CHECKOUT</string>
+    <string name="cartcontinue">CONTINUE</string>
+    <string name="placeorder">PLACE YOUR ORDER</string>
+    <string name="cart">Cart</string>
+    <string name="user">Login</string>
+    <string name="sort">Sort</string>
+    <string name="category">Category</string>
+    <string name="all">All</string>
+    <string name="quantity">Quantity:</string>
+    <string name="totalprice">TOTAL PRICE:</string>
+    <string name="search">Search</string>
+    <string name="checking">Checking data…</string>
+    <string name="noresults">No results…</string>
+    <string name="up">BACK</string>
+    <string name="app_exit">Press once again to exit!</string>
+    <string name="signin_incorrect">Email or Password is incorrect!</string>
+    <string name="wait">Please wait a moment…</string>
+    <string name="editprofile">Tap to edit your profile</string>
+    <string name="validemail">Your email address is invalid. Please enter a valid address!</string>
+    <string name="emptysignin">Please enter a valid email and password!</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="confirmerror">Password confirmation does not match Password!</string>
+    <string name="fullname">Full name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="avatarurl">Avatar URL (Optional)</string>
+    <string name="nullfield">All fields are required</string>
+    <string name="success">Registered successfully!</string>
+    <string name="alreadyregistered">This email is already registered, please choose another one!</string>
+    <string name="language">Language</string>
+    <string name="continue_as_guest">Continue without Sign in</string>
+    <string name="have_an_account">Sign in or Sign up</string>
+    <string name="secure_checkout">Secure Checkout</string>
+    <string name="checkouttab">CHECKOUT</string>
+    <string name="shipto">SHIPPING ADDRESS</string>
+    <string name="restart">You need to restart application for the changes to take effect!</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="success_place_order">Your order has been placed!</string>
+    <string name="signout">Are you sure you want to sign out?</string>
+    <string name="btn_signout">SIGN OUT</string>
+
+    <!-- OrderFragment -->
+    <string name="order_order">Order</string>
+    <string name="orderdate">Ordered at:</string>
+    <string name="pending">PENDING</string>
+    <string name="shipping">SHIPPING</string>
+    <string name="completed">COMPLETED</string>
+    <string name="need_email">You need input email to view your orders:</string>
+    <string name="noorders">It looks like you have no orders</string>
+
+    <!-- NavigationView -->
+    <string name="dishes">Dishes</string>
+    <string name="order">Your Orders</string>
+    <string name="configuration">Configuration</string>
+    <string name="setting">Setting</string>
+    <string name="about">About Me</string>
+
+    <!-- No Internet Access Dialog -->
+    <string name="no_internet_title">No Internet Access</string>
+    <string name="no_internet_message">Please check your Internet connection or you can contact us to place your order</string>
+    <string name="call_hotline">Call</string>
+    <string name="retry">Retry</string>
+    <string name="exit">View Without Internet</string>
+
+    <!-- Web Service URL -->
+    <string name="login">http://h3solution.com/h3kfc/login.php</string>
+    <string name="getversion">http://h3solution.com/h3kfc/getversion.php</string>
+    <string name="get_category">http://h3solution.com/h3kfc/get_category.php</string>
+    <string name="register">http://h3solution.com/h3kfc/register.php</string>
+    <string name="orders">http://h3solution.com/h3kfc/orders.php</string>
+    <string name="get_orders">http://h3solution.com/h3kfc/get_orders.php</string>
+    <string name="get_orders_detail">http://h3solution.com/h3kfc/get_orders_detail.php</string>
+    <string name="getallproducts">http://h3solution.com/h3kfc/getallproducts.php</string>
+    <string name="productAvatar">http://h3solution.com/h3kfc/images/</string>
+
+    <!-- KFC Hotline -->
+    <string name="hotline">18006088</string>
+
+    <!-- SharedPreferences File Name -->
+    <string name="version_file">data</string>
+    <string name="user_file">user</string>
+    <string name="category_file">category</string>
+    <string name="language_file">language</string>
+
+    <!-- Setting -->
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Spinners -->
+    <string-array name="sortMenu">
+        <item>Name: A to Z</item>
+        <item>Name: Z to A</item>
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Hồ Chí Minh</item>
+        <item>Hà Nội</item>
+    </string-array>
+
+    <string-array name="district_hcm">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>Bình Chánh</item>
+        <item>Bình Tân</item>
+        <item>Bình Thạnh</item>
+        <item>Cần Giờ</item>
+        <item>Củ Chi</item>
+        <item>Gò Vấp</item>
+        <item>Hóc Môn</item>
+        <item>Nhà Bè</item>
+        <item>Phú Nhuận</item>
+        <item>Tân Bình</item>
+        <item>Tân Phú</item>
+        <item>Thủ Đức</item>
+    </string-array>
+
+    <string-array name="district_hn">
+        <item>Ba Đình</item>
+        <item>Ba Vì</item>
+        <item>Cầu Giấy</item>
+        <item>Chương Mỹ</item>
+        <item>Đan Phượng</item>
+        <item>Đông Anh</item>
+        <item>Đống Đa</item>
+        <item>Gia Lâm</item>
+        <item>Hà Đông</item>
+        <item>Hai Bà Trưng</item>
+        <item>Hoài Đức</item>
+        <item>Hoàn Kiếm</item>
+        <item>Hoàng Mai</item>
+        <item>Long Biên</item>
+        <item>Mê Linh</item>
+        <item>Mỹ Đức</item>
+        <item>Phú Xuyên</item>
+        <item>Phúc Thọ</item>
+        <item>Quốc Oai</item>
+        <item>Sóc Sơn</item>
+        <item>Sơn Tây</item>
+        <item>Tây Hồ</item>
+        <item>Thạch Thất</item>
+        <item>Thanh Oai</item>
+        <item>Thanh Trì</item>
+        <item>Thanh Xuân</item>
+        <item>Thường Tín</item>
+        <item>Từ Liêm</item>
+        <item>Ứng Hoà</item>
+    </string-array>
+
+    <string name="vietnamese">Vietnamese</string>
+    <string name="english">English</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="error_invalid_password">This password is too short</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

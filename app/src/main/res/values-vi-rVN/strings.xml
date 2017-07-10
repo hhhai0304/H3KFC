@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">H3 Fast Food</string>
+    <string name="downloading">Đang tải dữ liệu </string>
+    <string name="addtocard">Thêm Vào Giỏ Hàng</string>
+    <string name="back">Quay lại</string>
+    <string name="frontcartmessage">Thành công: Bạn đã thêm</string>
+    <string name="backcartmessage">vào giỏ hàng!</string>
+    <string name="checkout">TIẾN HÀNH THANH TOÁN</string>
+    <string name="cartcontinue">TIẾP TỤC</string>
+    <string name="placeorder">ĐẶT HÀNG</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="user">Đăng nhập</string>
+    <string name="quantity">Số lượng:</string>
+    <string name="totalprice">TỔNG TIỀN:</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="category">Danh mục</string>
+    <string name="all">Tất Cả</string>
+    <string name="search">Tìm Kiếm</string>
+    <string name="checking">Đang kiểm tra dữ liệu…</string>
+    <string name="noresults">Không có kết quả…</string>
+    <string name="up">QUAY LẠI</string>
+    <string name="app_exit">Nhấn lần nữa để thoát ứng dụng!</string>
+    <string name="signin_incorrect">Sai email hoặc mật khẩu!</string>
+    <string name="wait">Xin chờ giây lát…</string>
+    <string name="editprofile">Chỉnh sửa thông tin</string>
+    <string name="validemail">Bạn nhập địa chỉ email không đúng. Xin hãy nhập lại!</string>
+    <string name="emptysignin">Xin hãy nhập đủ email và mật khẩu!</string>
+    <string name="confirmpassword">Xác nhận mật khẩu</string>
+    <string name="confirmerror">Mật khẩu xác nhận không khớp với Mật Khẩu!</string>
+    <string name="fullname">Họ tên</string>
+    <string name="address">Địa chỉ</string>
+    <string name="phone">Điện thoại</string>
+    <string name="avatarurl">Link ảnh đại diện</string>
+    <string name="nullfield">Không được để trống thông tin</string>
+    <string name="success">Đăng ký thành công!</string>
+    <string name="alreadyregistered">Email này đã được đăng ký, xin chọn một email khác!</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="continue_as_guest">Tiếp tục không cần đăng nhập</string>
+    <string name="have_an_account">Tôi đã có tài khoản</string>
+    <string name="secure_checkout">Thanh toán An Toàn</string>
+    <string name="checkouttab">KIỂM LẠI</string>
+    <string name="shipto">ĐỊA CHỈ GIAO HÀNG</string>
+    <string name="restart">Bạn cần khởi động lại ứng dụng để thay đổi ngôn ngữ có hiệu lực!</string>
+    <string name="btn_restart">Khởi động lại</string>
+    <string name="btn_cancel">Hủy bỏ</string>
+    <string name="success_place_order">Đơn hàng của bạn đã đặt hàng thành công!</string>
+    <string name="signout">Bạn có chắc chắn bạn muốn đăng xuất?</string>
+    <string name="btn_signout">ĐĂNG XUẤT</string>
+
+    <!-- OrderFragment -->
+    <string name="order_order">Đơn hàng</string>
+    <string name="orderdate">Đặt hàng lúc:</string>
+    <string name="pending">ĐANG CHỜ DUYỆT</string>
+    <string name="shipping">ĐANG GIAO HÀNG</string>
+    <string name="completed">ĐÃ HOÀN TẤT</string>
+    <string name="need_email">Bạn cần nhập email để xem các đơn hàng của bạn:</string>
+    <string name="noorders">Bạn chưa có đơn đặt hàng nào</string>
+
+    <!-- NavigationView -->
+    <string name="dishes">Món Ăn</string>
+    <string name="order">Đơn Hàng Của Bạn</string>
+    <string name="configuration">Cấu Hình</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="about">Thông Tin Tác Giả</string>
+
+    <!-- No Internet Access Dialog -->
+    <string name="no_internet_title">Không có kết nối mạng</string>
+    <string name="no_internet_message">Hãy kiểm tra kết nối Internet hoặc bạn có thể gọi Hotline để đặt hàng</string>
+    <string name="call_hotline">Gọi</string>
+    <string name="retry">Thử lại</string>
+    <string name="exit">Xem Không Cần Internet</string>
+
+    <!-- Spinners -->
+    <string-array name="sortMenu">
+        <item>Tên: A đến Z</item>
+        <item>Tên: Z đến A</item>
+        <item>Giá: Tăng Dần</item>
+        <item>Giá: Giảm Dần</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="action_sign_up">Đăng ký</string>
+    <string name="error_invalid_password">Mật khẩu quá ngắn</string>
+
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">Tiếng Anh</string>
+</resources>

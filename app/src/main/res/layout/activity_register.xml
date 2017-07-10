@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_wallpaper"
+    tools:context="vn.name.hohoanghai.h3kfc.RegisterActivity">
+
+    <TextView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/up"
+        android:id="@+id/txtUpSignup"
+        android:textColor="#ffffff" />
+
+    <ScrollView
+        android:layout_below="@+id/txtUpSignup"
+        android:layout_above="@+id/btnSignupDone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/prompt_email"
+                android:id="@+id/txtSignupEmail"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#A5FFFFFF" />
+
+            <EditText
+                android:id="@+id/txtSignupPassowrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#a5ffffff" />
+
+            <EditText
+                android:id="@+id/txtConfirmPassowrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirmpassword"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#a5ffffff" />
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fullname"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#A5FFFFFF" />
+
+            <EditText
+                android:id="@+id/txtUserAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#A5FFFFFF" />
+
+            <EditText
+                android:id="@+id/txtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/phone"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#A5FFFFFF" />
+
+            <EditText
+                android:id="@+id/txtAvatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/avatarurl"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#A5FFFFFF" />
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/spnCity"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/spnDistrict"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sign_up"
+        android:id="@+id/btnSignupDone"
+        android:layout_alignParentBottom="true"
+        android:background="#28FFFFFF"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

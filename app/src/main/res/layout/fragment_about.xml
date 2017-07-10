@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="vn.name.hohoanghai.fragment.AboutFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sở hữu:"
+                    android:id="@+id/textView"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#000a74" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hồ Hoàng Hải"
+                    android:id="@+id/textView2"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:id="@+id/textView3"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#000a74" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hhhai0304@gmail.com"
+                    android:id="@+id/textView4"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Điện thoại:"
+                    android:id="@+id/textView5"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#000a74" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0868603494"
+                    android:id="@+id/textView6"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trang Thông tin:"
+                    android:id="@+id/textView7"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="#000a74" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="http://h3solution.com/"
+                    android:id="@+id/textView8"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="10dp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dữ liệu của ứng dụng lấy nguồn từ KFC Việt Nam"
+            android:id="@+id/textView9"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context="vn.name.hohoanghai.h3kfc.CheckoutInfoActivity">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llTab">
+
+        <LinearLayout
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <ImageView
+                android:src="@drawable/ic_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/shipto"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDoneTab"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f9f9f9">
+
+            <ImageView
+                android:src="@drawable/ic_done_disable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/checkouttab"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_below="@+id/llTab"
+        android:layout_above="@+id/btnAddressContinue"
+        android:padding="30dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/txtAddressEmail"
+                android:textColor="#e5939e" />
+
+            <EditText
+                android:id="@+id/txtAddressFullname"
+                android:hint="@string/fullname"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/checkout_background"
+                android:selectAllOnFocus="true"
+                android:textColorHint="#b96e78"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/txtAddressPhone"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/checkout_background"
+                android:selectAllOnFocus="true"
+                android:textColorHint="#b96e78"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <EditText
+                android:id="@+id/txtAddress"
+                android:hint="@string/address"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/checkout_background"
+                android:selectAllOnFocus="true"
+                android:textColorHint="#b96e78"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/checkout_background"
+                android:id="@+id/spnAddressCity" />
+
+            <Spinner
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/checkout_background"
+                android:id="@+id/spnAddressDistrict" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cartcontinue"
+        android:id="@+id/btnAddressContinue"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

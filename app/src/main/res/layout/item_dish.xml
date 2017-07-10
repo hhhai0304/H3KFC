@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="161dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/noimage"
+        android:id="@+id/imgDish"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgDish"
+        android:layout_alignLeft="@+id/imgDish"
+        android:layout_alignRight="@+id/imgDish"
+        android:background="#ad172b">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gà rán mật ong"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/txtDishName"
+            android:textColor="#ffffff"
+            android:maxLength="15" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25000 vnđ"
+            android:textSize="12sp"
+            android:id="@+id/txtPrice"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>
